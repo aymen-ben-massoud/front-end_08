@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700&family=Outfit:wght@100;200;400;600;900&family=Raleway:wght@400;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+}
+.all{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+   
+
+}
+
+.one{
+    background-color: hsl(171, 66%, 44%);
+    
+ 
+
+}
+.one,.two{
+    color: white;
+    border: unset;
+   margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.one:hover,.two:hover{
+    opacity: 0.7;
+}
+.two{ 
+    background-color:  hsl(233, 100%, 69%);
+    margin-left: 10px ;
+}
+header p {
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+.texttwo{
+    margin-top: 30px;
+}
+.imagepc{
+    height: 500px;
+    width: 600px;
+}
+.divpc{
+    margin-top: 5%;
+    display: flex;
+ 
+}
+.divpc p {
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+.divtext{
+    width: 500px;
+    margin-left: 40px;
+  
+}
+.divtext > div {
+    margin: 50px;
+}
+.sectionmobile{
+    
+    padding-top: 50px;
+   width: auto;
+    margin: auto;
+    text-align: center;
+}
+.sectionmobile > div:first-child {
+margin: auto;
+width: 40%;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+.sectionmobile > div p {
+    
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+
+}
+.flex{
+    display: flex;
+    text-align: center;
+   margin: auto;
+    width: 80%;
+    align-items: baseline;
+   margin-top: 50px;
+}
+.flex p {
+    font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+.flex div{
+margin-left: 50px;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.end{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.end p{ 
+   font-size: 18px;
+    color: hsl(201, 11%, 66%);
+}
+.end h1 {
+    margin-bottom: 20px;
+}
+.endwork{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items:flex-start;
+    color: hsl(201, 11%, 66%);
+   
+}
+.endwork img{
+
+ width: 40px;
+ height: 40px;   
+
+}
+.logosimage img{
+    margin-left: 30px;  }
+    @media only screen and (max-width: 375px){ 
+        body{
+            width: 375px;
+            
+        }
+        
+        .all{
+            width: auto;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+        header{
+            background-image: url(./images/bg-header-mobile.png);
+            background-repeat: no-repeat;
+           
+        
+        }
+        .imagepc{
+            width: 250px;
+            height: 250px;
+        }
+        .divpc{
+            margin-top: 1%;
+            display: block;
+         
+        }
+        .divtext{
+            width: 370px;
+            margin-left: 0px;
+          text-align: center;
+        }
+        .tyyt{
+            width: 250px;
+            height: 250px;
+
+        }
+        .flex{
+            display: block;
+            text-align: center;
+           margin: auto;
+            width: 80%;
+           
+        }
+        .logos{
+            display: block;
+           text-align: center;
+            margin-top: 10px;
+        }
+        .logos img {
+            text-align: center;
+            display: block;
+        }
+}
