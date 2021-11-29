@@ -7,11 +7,7 @@
 }
 body{
     background-color:white;
-    font-family: 'Bai Jamjuree', sans-serif;
-font-family: 'Barlow Semi Condensed', sans-serif;
-font-family: 'Inter', sans-serif;
-font-family: 'Outfit', sans-serif;
-font-family: 'Raleway', sans-serif;
+
 font-family: 'Red Hat Display', sans-serif;
 }
 .all{
@@ -162,12 +158,14 @@ margin-left: 50px;
         
         }
         .imagepc{
-            width: 250px;
-            height: 250px;
+            width: 90%;
+            height: 300px;
+           
         }
         .divpc{
             margin-top: 1%;
             display: block;
+           text-align: center;
          
         }
         .divtext{
@@ -176,15 +174,20 @@ margin-left: 50px;
           text-align: center;
         }
         .tyyt{
-            width: 250px;
+            width: 100%;
             height: 250px;
 
         }
+        .flex div{
+            margin-top: 50px;
+            margin-left: 0px;
+            }
         .flex{
             display: block;
             text-align: center;
            margin: auto;
-            width: 80%;
+            width: 100%;
+            margin-top: 50px;
            
         }
         .logos{
@@ -193,7 +196,43 @@ margin-left: 50px;
             margin-top: 10px;
         }
         .logos img {
-            text-align: center;
+            width: 100px;
+            height: auto;
             display: block;
+      padding-top: 10%;
+            margin: auto;
         }
+        .logosimage{
+        
+            
+            display: block;
+      padding-top: 10%;
+            margin: auto;
+        
+        }
+        .endwork{
+            display: block;
+        text-align: center;
+            margin-top: 70px;
+         
+            color: hsl(201, 11%, 66%);
+           
+        }
+        .sectionmobile > div:first-child {
+            margin: auto;
+            width: 100%;
+            margin-bottom: 40px;
+            margin-top: 40px;
+            }
+            .buttons{
+                display: flex;
+                flex-direction: column;
+            }
+            .end{
+                width: 90%;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
+            }
+            
 }
